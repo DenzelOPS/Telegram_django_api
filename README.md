@@ -16,3 +16,11 @@
     ```
     python manage.py runserver
     ```
+
+## API Endpoints
+
+- `api/register/` - Регистрация
+- `api/login/` - Авторизация
+- `api/generate_token/` - Генерация токена (необходимо предварительно отправить любое сообщение боту)
+- `api/get_all_messages/` - Получение списка сообщений
+- `api/send_message/` - Отправка сообщений
